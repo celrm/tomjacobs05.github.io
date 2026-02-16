@@ -1,3 +1,27 @@
-conference_talks: 
+talks: 
+  - date: 9. February 2026
+    url: https://researchseminars.org/talk/TropicalmathandML/32/
+    venue: "Tropical mathematics and machine learning seminar"
+    title: "Weight Decay Controls Implicit Regularization: Insights on Generalization and Sparsity"
 
-invited_talks:
+  - date: 17. November 2025
+    url: https://sites.google.com/view/efficientml/
+    venue: "Mathematics & Efficiency of Deep Learning ELLIS reading group"
+    title: "Mask in the Mirror: Implicit Sparsification"
+    video: https://www.youtube.com/embed/udKX0Y69O08?si=U2dSnD4vkY5s7ERM
+
+  - date: 10. November 2025
+    url: https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025
+    venue: "Workshop on Geometry, Topology, and Machine Learning (GTML) lightning talk in Leipzig"
+    title: "Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?"
+    
+  - date: 23. October 2025
+    url: https://aimath.nl/index.php/2025/08/27/phd-event/
+    venue: "AIM - PhD networking event in Utrecht"
+    title: "Weight Decay Controls Implicit Regularization: Insights on Generalization and Sparsity"
+
+  - date: 14. August 2025
+    url: https://cohere.com/events/Cohere-Labs-Tom-Jacobs-2025
+    venue: "Cohere Labs - ML theory community talk"
+    title: "Weight Decay Controls Implicit Regularization: Insights on Generalization and Sparsity"
+    video: https://www.youtube.com/embed/KwxqXbgu78c?si=U-5CdYYuHwoP6r5o

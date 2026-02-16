@@ -17,7 +17,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 		  <ul class="nav navbar-nav navbar-left">
-			<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+			<li><a href="{{ site.url }}{{ site.baseurl }}/" target="_self">Home</a></li>
 	        {% for page in site.nav_pages %}
 	          <li><a href="{{ site.url }}{{ site.baseurl }}/{{page.name}}" target="_self">{{page.name | capitalize }}</a></li>
 	        {% endfor %}
@@ -25,7 +25,7 @@
 		</ul>
 		<div>
 			<a class="navbar-brand"
-		  style="float: right; margin-right:0;margin-left:auto; font-size: 150%; border: none; text-decoration: none;"
+		  style="float: right; margin-right:0;margin-left:auto; font-size: 150%; border: none; text-decoration: none;" target="_self"
 		  href="{{ site.url }}{{ site.baseurl }}/">{{ site.title | escape }}</a></div>
 		</div>
   </div>

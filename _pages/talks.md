@@ -7,6 +7,13 @@ permalink: /talks/
 
 ### Talks
 
+<ul>
+{% for talk in site.data.talks.talks %}
+<li> <strong>{{ talk.date | date: "%-d.%m.%y" }} ⋙</strong> {{ talk.venue }} <br/> <i>{{ talk.title }}</i>
+{% if talk.url %} <a href="{{ talk.url }}" target="_blank">[link]</a> {%- endif -%}{%- if talk.video -%}<a href="{{ talk.video }}" target="_blank">[video]</a>{% endif %}</li><br>
+{% endfor %}
+</ul>
+
 {% if site.data.talks.conference_talks %}
 ## Conference presentations
 <div class="rowl1" style="padding-top: 10px;">
